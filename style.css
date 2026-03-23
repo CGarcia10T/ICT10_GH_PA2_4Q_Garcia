@@ -1,0 +1,26 @@
+* {
+	margin: 0%;
+	padding: 0%;
+}
+
+#output, #form {
+    font-family: "Google Sans Code", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 13px;
+    text-align: left;
+    padding: 20px;
+    background-color: #656d4a;
+    color: #fefae0;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+body {
+    background-color: #414833;
+}
+
+#enter {
+    color: #fefae0;
+    background-color: #414833;
+}

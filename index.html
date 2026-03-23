@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="https://pyscript.net/releases/2025.7.3/core.css">
+        <script type="module" src="https://pyscript.net/releases/2025.7.3/core.js"></script>
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="style.css">
+
+        <title>Object-Orientated Programming</title>
+    </head>
+    <body>
+        <div class="container" id="form">
+            <form>
+                <label for="name">Enter your pet's name:</label>
+                <input class="form-control" type="text" id="name" placeholder="Enter your pet's name">
+                <br>
+                <label for="breed">Enter your pet's breed:</label>
+                <input class="form-control" type="text" id="breed" placeholder="Enter your pet's breed">
+                <br>
+                <label for="age">Enter your pet's age:</label>
+                <input class="form-control" type="number" id="age" placeholder="Enter your pet's age">
+                <br>
+                <label for="owner">Enter your name:</label>
+                <input class="form-control" type="text" id="owner" placeholder="Enter your name">
+                <br>
+                <div id="btn-group">
+                    <button type="button" class="btn" id="enter" py-click="displayInfo">Enter</button>
+                </div>
+            </form>
+        </div>
+        
+        <div class="container" id="output"></div>
+        <py-script src="main.py"></py-script>
+        
+    </body>
+</html>
